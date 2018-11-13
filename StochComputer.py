@@ -10,3 +10,4 @@ def Add(stream1, stream2, selectStream):
     stream_out = []
     for int1, int2, sel in zip(stream1, stream2, selectStream):
         stream_.out.append(sel ? int1 : int2);
+    return stream_out;
